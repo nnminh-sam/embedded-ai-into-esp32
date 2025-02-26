@@ -12,7 +12,7 @@ class SineModel:
         sample_count=1000,
         validation_ratio=0.2,
         test_ratio=0.2,
-        model_name="model",
+        model_name="sine_model",
     ):
         # Configuration
         self.sample_count = sample_count

@@ -11,8 +11,8 @@
 
 // Some settings
 // constexpr int led_pin = 2;
-constexpr float pi = 3.14159265;                  // Some pi
-constexpr float freq = 1;                       // Frequency (Hz) of sinewave
+constexpr float pi = 3.14159265;               // Some pi
+constexpr float freq = 1;                      // Frequency (Hz) of sinewave
 constexpr float period = (1 / freq) * (1000);  // Period (mili seconds)
 
 namespace {

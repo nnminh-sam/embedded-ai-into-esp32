@@ -46,3 +46,22 @@
 2. `utils` directory:
     - This directory contains some utility functions for making models or embedded AI model into ESP32.
 
+---
+
+## Arduino Serial plotter X axis adjustment
+
+**For MacOS:**
+
+- Go to:
+
+    ```
+    /Applications/Arduino IDE.app/Contents/Resources/app/lib/backend/resources/arduino-serial-plotter-webapp/static/js
+    ```
+
+- Locate the file: `main.35ae02cb.chunk.js`
+- Search for exact keyword: `useState)(50)`
+- Replace `50` for your wanted value. Suggest: 1000.
+
+**For Windows:**
+
+- Follow this tutorial: [Adjust Serial plotter X axis](https://www.open-electronics.org/how-to-adjust-x-and-y-axis-scale-in-arduino-serial-plotter-no-extra-software-needed/)
